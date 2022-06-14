@@ -35,9 +35,10 @@ def create_app(settings_override=None):
 # app.register_blueprint(user_bp)
 
 
+app = create_app()
+
 if __name__=='__main__':
-    app = create_app()
-    app.run(port= 5000, debug=True)
+        app.run(port= 5000, debug=True)
 
 
 
