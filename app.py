@@ -27,20 +27,7 @@ def create_app(settings_override=None):
 
 
 
-
-# app = Flask(__name__)
-
-# app.secret_key = "SECRET_KEY"
-
-# app.register_blueprint(user_bp)
-
-
 app = create_app()
 
 if __name__=='__main__':
-        app.run(port= 5000, debug=True)
-
-
-
-# if __name__ == "__main__":
-#     app.run(debug=True, port=5000)
+    app.run(port= 5000, debug=True)
