@@ -52,12 +52,23 @@ body {
 
 
 .section-box {
-  padding: 40px 50px;
+  padding: 20px 20px;
   background-color: rgb(221, 219, 219);
   box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
   margin: 0px 90px;
   
 }
+
+
+@media (max-width: 992px) {
+  .section-box {
+    padding: 5px 0px;
+    margin: 0px 10px;
+
+}
+}
+
+
 
 /* @media (max-width: 992px) */
 .section-about .profile {
@@ -279,12 +290,6 @@ body {
 
 
 
-
-@media (max-width: 992px) {
-  .section-box {
-    padding: 50px 40px;
-}
-}
 
 
 @media (max-width: 992px) {
