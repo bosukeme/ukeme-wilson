@@ -1,6 +1,7 @@
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
     }
   }
 .search-skills {

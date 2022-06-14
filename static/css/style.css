@@ -71,8 +71,16 @@ body {
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
-  float: left;
-  width: 45.66667%;
+  /* float: left;
+  width: 45.66667%; */
+}
+
+
+@media (min-width: 768px) {
+  .col-image {
+    width: 45.6667%;
+    float: left;
+}
 }
 
 
@@ -80,9 +88,16 @@ body {
   margin-right: 10%;
   margin-bottom: 10px;
   position: relative;
-  cursor: pointer;
-  
+  cursor: pointer; 
 }
+
+@media (max-width: 992px) {
+  .section-about .profile-photo {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
 
 .profile-photo img {
   width: 100%;
@@ -92,13 +107,22 @@ body {
 
 
 .col-text {
-  width: 54.33333%;
-  float: left;
+  /* width: 54.33333%;
+  float: left; */
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
+
+@media (min-width: 768px) {
+  .col-text {
+    width: 54.33333%;
+    float: left;
+}
+}
+
+
 
 .text-section {
   color: #3d4451;
@@ -256,3 +280,16 @@ body {
 
 
 
+@media (max-width: 992px) {
+  .section-box {
+    padding: 50px 40px;
+}
+}
+
+
+@media (max-width: 992px) {
+  .section-about .profile {
+    padding: 50px 40px 15px;
+}
+
+}
