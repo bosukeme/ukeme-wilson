@@ -283,6 +283,15 @@ body {
   margin-left: 5%;
 }
 
+@media (max-width: 992px) {
+  .social_background {
+
+    padding: 10px;
+
+}
+}
+
+
 .social{
   list-style: none;
   
@@ -295,6 +304,14 @@ body {
 }
 
 
+
+@media (max-width: 992px) {
+  .social li {
+    margin-right: 20px;
+
+
+}
+}
 
 
 
