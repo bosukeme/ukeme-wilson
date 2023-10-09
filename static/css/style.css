@@ -1,0 +1,328 @@
+body {
+  /* background-image: url("https://pbs.twimg.com/profile_images/1379354195686531073/RtrzJI69_400x400.jpg"); */
+  background-image: url("/static/images/bg.png");
+}
+
+.color-text{
+  color: #fcfafa;
+  font-weight: bold;
+  
+}
+
+.bigdiv {
+    position: relative;
+    z-index: 2;
+    height: 550px;
+    width: 1000px;
+    overflow-y: hidden;
+    border: 1px;
+    border-style: solid;
+    margin-left: 20px;
+    background-color: #759bf1;
+    color: #f31515;
+  }
+  
+
+.image {
+    position: relative;
+    height: 450px;
+    float:left;
+    margin-right:50px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+@media (max-width: 992px) {
+  .image {
+    padding: 5px 0px;
+    margin: 0px 10px;
+    height: 300px;
+}
+}
+
+
+
+
+
+
+.section-box {
+  padding: 20px 20px;
+  background-color: rgb(221, 219, 219);
+  box-shadow: 0 1px 6px rgb(0 0 0 / 12%), 0 1px 4px rgb(0 0 0 / 24%);
+  margin: 0px 90px;
+  
+}
+
+
+@media (max-width: 992px) {
+  .section-box {
+    padding: 5px 0px;
+    margin: 0px 10px;
+
+}
+}
+
+
+
+/* @media (max-width: 992px) */
+.section-about .profile {
+    padding: 50px 40px 15px 40px;
+}
+
+@media (max-width: 992px) {
+  .section-about .profile {
+    padding: 50px 40px 15px 10px;
+  }
+  
+
+}
+
+
+
+
+
+
+.col-image {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* float: left;
+  width: 45.66667%; */
+}
+
+
+@media (min-width: 768px) {
+  .col-image {
+    width: 45.6667%;
+    float: left;
+    margin-bottom: 2px;
+}
+}
+
+
+.profile-photo {
+  margin-right: 10%;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer; 
+}
+
+@media (max-width: 992px) {
+  .section-about .profile-photo  img{
+    margin-right: 0px;
+    margin-bottom: 3px;
+  }
+}
+
+
+.profile-photo img {
+  width: 100%;
+  display: block;
+  margin-bottom: 30px;
+}
+
+
+.col-text {
+  /* width: 54.33333%;
+  float: left; */
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .col-text {
+    width: 54.33333%;
+    float: left;
+}
+}
+
+
+
+.text-section {
+  color: #3d4451;
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px solid #dedede;
+}
+
+.name-header {
+  font-size: 36px;
+  line-height: 1.1;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+
+.job-header {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+
+.bio {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+
+
+.bio .cont{
+  display: block;
+  margin-left: 125px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #759bf1;
+}
+
+.bio .title {
+  display: block;
+  width: 120px;
+  float: left;
+  color: #111111;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+
+
+
+
+/* .profile-social {
+  padding: 15px 0;
+  background-color: #6950a3;
+  
+}
+
+
+.socials {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  display: inline-block;
+} */
+
+.icons {
+  /* display: inline-block; */
+  vertical-align: middle;
+}
+
+.social .icons {
+  color: #fff;
+  font-size: 20px;
+  line-height: 45px;
+  /* display: inline-block; */
+}
+
+.icons-twitter:before {
+  content: "\f099";
+}
+
+.icons-linkedin:before {
+  content: "\f09a";
+}
+
+.icon-mail:before {
+  content: "\F32F";
+}
+
+
+.row {
+  *zoom: 1;
+}
+.row {
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+
+
+
+
+.social_background
+{
+  background: dodgerblue;
+  padding: 30px;
+  text-align: center;
+  width: 80%;
+  margin-left: 5%;
+}
+
+@media (max-width: 992px) {
+  .social_background {
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 7px;
+
+}
+}
+
+
+.social{
+  list-style: none;
+  
+}
+
+.social li{
+  display:inline-block;
+  margin-right: 40px;
+  color: #fff
+}
+
+
+
+@media (max-width: 992px) {
+  .social li {
+    margin-right: 5px;
+
+
+}
+}
+
+
+
+
+@media (max-width: 992px) {
+  .section-about .profile {
+    padding: 50px 40px 15px;
+}
+
+}
+
+
+
+
