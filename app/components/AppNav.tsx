@@ -13,7 +13,7 @@ export default function DrawerAppBar() {
     { label: 'Skills', path: '/skills' },
     { label: 'Medium', path: '/medium' },
     { label: 'Projects', path: '/projects' },
-    { label: 'Resume', path: 'https://docs.google.com/document/d/1FcQodIKim5-0vcHpZRWvtzfJORU8h72U3e9mE4VLYqM/edit?usp=sharing' },
+    { label: 'Resume', path: 'https://docs.google.com/document/d/1J4pU5xgYkvgDAegLL434cntEa6cQKl4x/edit?usp=sharing&ouid=104805344687299651871&rtpof=true&sd=true' },
     { label: 'Poems', path: 'https://ukemewilson.blogspot.com/' },
     { label: 'Quiz', path: '/quiz' },
   ];
