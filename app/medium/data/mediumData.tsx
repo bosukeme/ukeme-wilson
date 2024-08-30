@@ -90,6 +90,20 @@ const mediumArray: MediumArrayType[] = [
     },
     {
         id: 7,
+        title: "Securing Your APIs: Authentication and Authorization in Django Rest Framework",
+        date: "August 20, 2024",
+        image_url: "https://miro.medium.com/v2/resize:fit:1225/1*MVUocWgMXvTDcUgbDTS9Hw.png",
+        miniContent: "Authentication and Authorization in Django Rest Framework (DRF) is a crucial aspect of securing your API.",
+        link: "https://medium.com/@ukemeboswilson/securing-your-apis-authentication-and-authorization-in-django-rest-framework-138293e74b75",
+        dropDownContent: [
+            "Authentication involves verifying the identity of a user or client making a request to an API. It involves associating an incoming request with a set of identifying credentials, such as a user or a token.", 
+            "Authorization in Django Rest Framework (DRF) refers to the process of determining whether an authenticated user has permission to perform a specific action on a resource.",
+            "DRF provides several ways to handle authorization, primarily through permissions. DRF provides a set of built-in permission classes that you can use or customize according to your needs."
+        ],
+        clapCount: 1,
+    },
+    {
+        id: 8,
         title: "Using Requests Module to Scrape Webpages",
         date: "July 6, 2020",
         image_url: "https://miro.medium.com/v2/resize:fit:1001/1*2Qm3RjzWvN2SQ9Qij_xy_g.jpeg",

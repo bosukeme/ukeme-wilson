@@ -17,7 +17,7 @@ export default function HomePage() {
                     </h2> 
                     <br />
                     <p className="text-base md:text-lg lg:text-xl" >
-                        I&apos;m a passionate Senior Backend Developer with over 4 years of experience in Python development.
+                        I&apos;m a passionate Senior Backend Developer with over 6 years of experience in Python development.
                         I specialize in crafting robust and scalable web applications using Python, Flask, and Django.
                         Continuously learning and evolving, my goal is to build cutting-edge software that solves complex problems and delivers real value.
 
